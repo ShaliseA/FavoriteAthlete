@@ -9,7 +9,7 @@ class AthleteTableViewController: UITableViewController {
         static let athleteCell = "AthleteCell"
         static let addAthleteSegue = "AddAthlete"
         static let editAthleteSegue = "EditAthlete"
-        static let newUnwind = "NewUnwindToTable"
+        static let newUnwind = "NewUnwindToTable" //1st difference
         
     }
     
@@ -55,7 +55,7 @@ class AthleteTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         
-        if let controller = segue.destination as? AthleteFormViewController, let index = tableView.indexPathForSelectedRow,segue.identifier == PropertyKeys.editAthleteSegue {
+        if let controller = segue.destination as? AthleteFormViewController, let index = tableView.indexPathForSelectedRow, segue.identifier == PropertyKeys.editAthleteSegue {
                 
                 controller.athlete = athletes[index.row]
             
