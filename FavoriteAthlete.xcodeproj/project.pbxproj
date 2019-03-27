@@ -12,9 +12,9 @@
 		A94375B51E4648230053B419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94375B41E4648230053B419 /* Assets.xcassets */; };
 		A94375B81E4648230053B419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94375B61E4648230053B419 /* LaunchScreen.storyboard */; };
 		A9FE274F1E4A8F0E00F01A14 /* AthleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FE274E1E4A8F0E00F01A14 /* AthleteTableViewController.swift */; };
+		F9B1A1CC224C30AB00321D4A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9B1A1CB224C30AB00321D4A /* Info.plist */; };
 		F9BD809822451A97002A862D /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD809722451A97002A862D /* Athlete.swift */; };
 		F9BD809A22451EA0002A862D /* AthleteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD809922451EA0002A862D /* AthleteFormViewController.swift */; };
-		F9BD809C22452E10002A862D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9BD809B22452E10002A862D /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +24,9 @@
 		A94375B41E4648230053B419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A94375B71E4648230053B419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9FE274E1E4A8F0E00F01A14 /* AthleteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthleteTableViewController.swift; sourceTree = "<group>"; };
+		F9B1A1CB224C30AB00321D4A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9BD809722451A97002A862D /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
 		F9BD809922451EA0002A862D /* AthleteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AthleteFormViewController.swift; path = FavoriteAthlete/Controller/AthleteFormViewController.swift; sourceTree = SOURCE_ROOT; };
-		F9BD809B22452E10002A862D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 		A94375AC1E4648230053B419 /* FavoriteAthlete */ = {
 			isa = PBXGroup;
 			children = (
-				F9BD809B22452E10002A862D /* Info.plist */,
+				F9B1A1CB224C30AB00321D4A /* Info.plist */,
 				F9BD80942245199B002A862D /* Model */,
 				F9BD8095224519A1002A862D /* Controller */,
 				F9BD8096224519AA002A862D /* View */,
@@ -136,6 +136,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -154,7 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9BD809C22452E10002A862D /* Info.plist in Resources */,
+				F9B1A1CC224C30AB00321D4A /* Info.plist in Resources */,
 				A94375B81E4648230053B419 /* LaunchScreen.storyboard in Resources */,
 				A94375B51E4648230053B419 /* Assets.xcassets in Resources */,
 				A94375B31E4648230053B419 /* Main.storyboard in Resources */,
